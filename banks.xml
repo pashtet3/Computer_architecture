@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<banks>
+   <!-- <bank name="Oschadbank">
+        <url>https://www.oschadbank.ua/ua</url>
+        <currency name="USD">
+            <sell>//*[@id="block-exchange-rates-block"]/div/div/div/div/div[1]/div/div[1]/strong[2]</sell>
+            <buy>//*[@id="block-exchange-rates-block"]/div/div/div/div/div[1]/div/div[1]/strong[1]</buy>
+        </currency>
+        <currency name="EUR">
+            <sell>//*[@id="block-exchange-rates-block"]/div/div/div/div/div[1]/div/div[2]/strong[2]</sell>
+            <buy>//*[@id="block-exchange-rates-block"]/div/div/div/div/div[1]/div/div[2]/strong[1]</buy>
+        </currency>
+        <currency name="RUB">
+            <sell>//*[@id="block-exchange-rates-block"]/div/div/div/div/div[1]/div/div[3]/strong[2]</sell>
+            <buy>//*[@id="block-exchange-rates-block"]/div/div/div/div/div[1]/div/div[3]/strong[1]</buy>
+        </currency>
+    </bank>-->
+    <bank name="Alfabank">
+        <url>https://alfabank.ua/</url>
+        <currency name="USD">
+            <sell>//*[@id="new-layout"]/main/section[3]/div/div[4]/div[1]/div[3]/span[2]</sell>
+            <buy>/html/body/main/section[3]/div/div[4]/div[1]/div[2]/span[2]</buy>
+        </currency>
+        <currency name="EUR">
+            <sell>//*[@id="new-layout"]/main/section[3]/div/div[4]/div[2]/div[3]/span[2]</sell>
+            <buy>//*[@id="new-layout"]/main/section[3]/div/div[4]/div[2]/div[2]/span[2]</buy>
+        </currency>
+    </bank>
+    <bank name="Europrombank">
+        <url>https://europrombank.kiev.ua/ru/</url>
+        <currency name="USD">
+            <sell>/html/body/div[1]/div[2]/div/div/div[1]/div/div[2]/table/tbody/tr[1]/td[3]/span</sell>
+            <buy>/html/body/div[1]/div[2]/div/div/div[1]/div/div[2]/table/tbody/tr[1]/td[2]/span</buy>
+        </currency>
+         <currency name="EUR">
+            <sell>/html/body/div[1]/div[2]/div/div/div[1]/div/div[2]/table/tbody/tr[2]/td[3]/span</sell>
+            <buy>/html/body/div[1]/div[2]/div/div/div[1]/div/div[2]/table/tbody/tr[2]/td[2]/span</buy>
+        </currency>
+         <currency name="RUB">
+            <sell>/html/body/div[1]/div[2]/div/div/div[1]/div/div[2]/table/tbody/tr[3]/td[3]/span</sell>
+            <buy>/html/body/div[1]/div[2]/div/div/div[1]/div/div[2]/table/tbody/tr[3]/td[2]/span</buy>
+        </currency>
+    </bank>
+    <bank name="Industrialbank">
+        <url>https://industrialbank.ua/ua/</url>
+        <currency name="USD">
+            <sell>//*[@id="exchange-rate"]/div[2]/ul/li[1]/span[2]</sell>
+            <buy>//*[@id="exchange-rate"]/div[1]/ul/li[1]/span[2]</buy>
+        </currency>
+         <currency name="EUR">
+            <sell>//*[@id="exchange-rate"]/div[2]/ul/li[2]/span[2]</sell>
+            <buy>//*[@id="exchange-rate"]/div[1]/ul/li[2]/span[2]</buy>
+        </currency>
+         <currency name="RUB">
+            <sell>//*[@id="exchange-rate"]/div[2]/ul/li[3]/span[2]</sell>
+            <buy>//*[@id="exchange-rate"]/div[1]/ul/li[3]/span[2]</buy>
+        </currency>
+    </bank>
+</banks>
